@@ -29,5 +29,53 @@ when the power is off:
 ##  Movements
 
 
-These will be some movements that the robot can do with his arms to get attention
+These will be some movements that the robot can do with his arms to get attention, note that after all movement the servos will back to the initial position which is 0 degrees.
+
+
+#### First movement
+
+
+90 degrees for all servos.
+
+
+![pos1](https://github.com/AlolyanRoaa/CircuitDesign-6Servos-3Movements/blob/main/pos1.PNG)
+
+
+#### Second movement
+
+
+right arm will move 135 degree.
+
+
+![pos2](https://github.com/AlolyanRoaa/CircuitDesign-6Servos-3Movements/blob/main/pos2.PNG)
+
+
+#### Third movement
+
+
+left arm will move from 90 to 180 degree.
+
+
+![pos3](https://github.com/AlolyanRoaa/CircuitDesign-6Servos-3Movements/blob/main/pos3.PNG)
+
+
+## Assembly
+
+
+After connecting the arduino's (Arduino Uno R3) ground to breadboard (-), and 5v to breadboard (+).
+
+
+then for each servo : brow wire to ground, red to power, and orange for signal to the arduino.
+
+
+| Part  | Digital pwm |
+|-------|------------|
+| R1  |   D9  |
+| R2  |   D10  |
+| R3 |   D11   |
+| L1  |   D3   |
+| L2  |   D5  |
+| L3  |   D6   |
+
+
 
